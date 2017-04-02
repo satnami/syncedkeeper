@@ -1,16 +1,17 @@
 {
+  "app_name": "",
   "access_token": "",
-  "time_out": 120000,
+  "time_out": 10000,
   "page": 1,
   "git": {
-    "checkout" : {
-      "origin" : "",
-      "upstream" : ""
+    "checkout": {
+      "origin": "",
+      "upstream": ""
     },
     "clone": "",
     "push": {
-      "origin" : "",
-      "upstream" : ""
+      "origin": "",
+      "upstream": ""
     }
   }
 }

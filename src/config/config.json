@@ -1,16 +1,17 @@
 {
-  "access_token": "",
-  "time_out": 120000,
+  "app_name": "request-me",
+  "access_token": "467c7d983ed29d004d87a6dcb1cabe4758e1d95f",
+  "time_out": 10000,
   "page": 1,
   "git": {
-    "checkout" : {
-      "origin" : "",
-      "upstream" : ""
+    "checkout": {
+      "origin": "",
+      "upstream": ""
     },
     "clone": "",
     "push": {
-      "origin" : "",
-      "upstream" : ""
+      "origin": "",
+      "upstream": ""
     }
   }
 }

@@ -1,12 +1,8 @@
-var request = require('./lib/request'),
-  kue = require('./lib/kue'),
-  git = require('./lib/git-commands');
+var kue = require('./lib/kue'),
+  request = require('./lib/request');
 
-var org_name='';
+request('maniacs-games');
 
-request(org_name);
-
-kue.process('clone', function (data, done) {
-  git(data);
+kue.process('fork', function (data, done) {
   done();
 });
