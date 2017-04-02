@@ -1,0 +1,16 @@
+{
+  "access_token": "",
+  "time_out": 120000,
+  "page": 1,
+  "git": {
+    "checkout" : {
+      "origin" : "",
+      "upstream" : ""
+    },
+    "clone": "",
+    "push": {
+      "origin" : "",
+      "upstream" : ""
+    }
+  }
+}
